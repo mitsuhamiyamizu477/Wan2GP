@@ -1368,6 +1368,6 @@ if __name__ == "__main__":
             url = "http://" + server_name 
         webbrowser.open(url + ":" + str(server_port), new = 0, autoraise = True)
 
-    demo.launch(share=args.True)
+    demo.launch(share=True)
 
  

@@ -1360,14 +1360,7 @@ if __name__ == "__main__":
 
         
     demo = create_demo()
-    if args.open_browser:
-        import webbrowser 
-        if server_name.startswith("http"):
-            url = server_name 
-        else:
-            url = "http://" + server_name 
-        webbrowser.open(url + ":" + str(server_port), new = 0, autoraise = True)
-
+    
     demo.launch(share=True)
 
  
